@@ -5,7 +5,9 @@
 		{ title: 'Book Audio Book', url: 'https://bookaudiobook.net/' },
 		{ title: 'Book Search Party', url: 'https://booksearch.party/' },
 		{ title: 'Spotify', url: 'https://spotify.com' },
-		{ title: 'NPR One', url: 'https://one.npr.org/' }
+		{ title: 'NPR One', url: 'https://one.npr.org/' },
+		{ title: 'LibriVox', url: 'https://librivox.org/' },
+		{ title: 'Shared Audiobooks', url: 'https://sharedaudiobooks.com' }
 	];
 </script>
 

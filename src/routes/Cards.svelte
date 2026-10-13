@@ -2,6 +2,7 @@
 	type Card = {
 		title: string;
 		url: string;
+		footer?: string;
 	};
 
 	let { cards = [] }: { cards?: Card[] } = $props();
@@ -11,6 +12,9 @@
 	{#each cards as card (card.url)}
 		<div class="card">
 			<h2><a href={card.url}>{card.title}</a></h2>
+			{#if card.footer}
+				<footer>{card.footer}</footer>
+			{/if}
 		</div>
 	{/each}
 </div>
