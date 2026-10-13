@@ -1,5 +1,7 @@
 <script lang="ts">
-    import Cards from '../Cards.svelte';
+	import Cards from '../Cards.svelte';
+
+	const textCards = [{ title: 'Free Novel Read', url: 'https://freenovelread.com/' }];
 </script>
 
 <svelte:head>
@@ -10,9 +12,7 @@
 <section>
 	<h1>Text</h1>
 
-	<h2>
-	   Books and articles
-	</h2>
+	<h2>Books and articles</h2>
 
-	<Cards />
+	<Cards cards={textCards} />
 </section>

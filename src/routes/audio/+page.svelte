@@ -1,5 +1,7 @@
 <script lang="ts">
-    import Cards from '../Cards.svelte';
+	import Cards from '../Cards.svelte';
+
+	const audioCards = [{ title: 'Book Audio Book', url: 'https://bookaudiobook.net/' }];
 </script>
 
 <svelte:head>
@@ -10,9 +12,7 @@
 <section>
 	<h1>Audio</h1>
 
-	<h2>
-	    Audiobooks and podcasts
-	</h2>
+	<h2>Audiobooks and podcasts</h2>
 
-	<Cards />
+	<Cards cards={audioCards} />
 </section>

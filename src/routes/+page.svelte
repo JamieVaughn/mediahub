@@ -1,5 +1,11 @@
 <script lang="ts">
 	import Cards from './Cards.svelte';
+
+	const videoCards = [
+		{ title: 'The Roku Channel', url: 'http://therokuchannel.roku.com' },
+		{ title: 'Pluto TV', url: 'https://pluto.tv' },
+		{ title: 'React TV', url: 'https://react.tv/catalog' }
+	];
 </script>
 
 <svelte:head>
@@ -8,17 +14,12 @@
 </svelte:head>
 
 <section>
-	<h1>
-		Video
-	</h1>
+	<h1>Video</h1>
 
-	<h2>
-		Film, tv and visual media
-	</h2>
+	<h2>Film, tv and visual media</h2>
 
-	<Cards />
+	<Cards cards={videoCards} />
 </section>
 
 <style>
-
 </style>
