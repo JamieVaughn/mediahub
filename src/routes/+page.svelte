@@ -4,7 +4,15 @@
 	const videoCards = [
 		{ title: 'The Roku Channel', url: 'http://therokuchannel.roku.com' },
 		{ title: 'Pluto TV', url: 'https://pluto.tv' },
-		{ title: 'React TV', url: 'https://react.tv/catalog' }
+		{ title: 'React TV', url: 'https://react.tv/catalog' },
+		{ title: 'Roku Channel Store', url: 'https://channelstore.roku.com/browse' },
+		{
+			title: 'Cord Cutters News',
+			url: 'https://cordcuttersnews.com/how-to-watch-hundreds-of-live-tv-channels-for-free-legally-without-cable-tv/'
+		},
+		{ title: 'FMHY', url: 'https://fmhy.net/' },
+		{ title: 'Amazon Freevee', url: 'https://www.amazon.com/freevee' },
+		{ title: 'YouTube', url: 'https://youtube.com' }
 	];
 </script>
 

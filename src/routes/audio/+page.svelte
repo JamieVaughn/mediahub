@@ -1,7 +1,12 @@
 <script lang="ts">
 	import Cards from '../Cards.svelte';
 
-	const audioCards = [{ title: 'Book Audio Book', url: 'https://bookaudiobook.net/' }];
+	const audioCards = [
+		{ title: 'Book Audio Book', url: 'https://bookaudiobook.net/' },
+		{ title: 'Book Search Party', url: 'https://booksearch.party/' },
+		{ title: 'Spotify', url: 'https://spotify.com' },
+		{ title: 'NPR One', url: 'https://one.npr.org/' }
+	];
 </script>
 
 <svelte:head>

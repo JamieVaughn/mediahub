@@ -10,8 +10,7 @@
 <div class="cardlist">
 	{#each cards as card (card.url)}
 		<div class="card">
-			<h2>{card.title}</h2>
-			<strong><a href={card.url}>{card.url}</a></strong>
+			<h2><a href={card.url}>{card.title}</a></h2>
 		</div>
 	{/each}
 </div>
