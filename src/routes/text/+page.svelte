@@ -3,7 +3,8 @@
 
 	const textCards = [
 		{ title: 'Free Novel Read', url: 'https://freenovelread.com/' },
-		{ title: 'Project Gutenberg', url: 'https://www.gutenberg.org/' }
+		{ title: 'Project Gutenberg', url: 'https://www.gutenberg.org/' },
+		{ title: 'Stay Blessed Stay Humble', url: 'https://stayblessedstayhumble.org/' }
 	];
 </script>
 
