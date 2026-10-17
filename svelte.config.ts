@@ -7,8 +7,6 @@ const config = {
 	},
 	kit: {
 		adapter: adapter({
-			pages: '',
-			assets: '',
 			fallback: '404.html'
 		}),
 		paths: {
