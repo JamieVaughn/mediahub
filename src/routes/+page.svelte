@@ -13,6 +13,8 @@
 		{ title: 'FMHY', url: 'https://fmhy.net/' },
 		{ title: 'Amazon Freevee', url: 'https://www.amazon.com/freevee' },
 		{ title: 'YouTube', url: 'https://youtube.com' },
+		{ title: 'CuriosityStream', url: 'https://curiositystream.com/' },
+		{ title: 'Nebula', url: 'https://nebula.tv' },
 		{ title: 'Sensical', url: 'https://www.sensical.tv/', footer: 'For kids' }
 	];
 </script>
